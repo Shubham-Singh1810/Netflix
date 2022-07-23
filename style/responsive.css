@@ -1,0 +1,220 @@
+/* responsive coding start*/
+
+@media only screen and (max-width:1100px){
+    html{
+       font-size: 55%;
+    }
+    .tv-img{
+        height: 30rem;
+    }
+    .mobile-img{
+        height: 30rem;
+    }
+    .moniter-img{
+        height: 30rem;
+    }
+    .child-img{
+        height: 30rem;
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+    .left-side{
+        width: 50%;
+        padding-top: 6rem;
+        padding-left: 8rem;
+    }
+    #footer{
+        padding: 4rem 10rem;
+    }
+
+}
+@media only screen and (max-width:850px){
+   nav{
+    padding: 0rem 2rem;
+   }
+   
+   .nav-right ul li a{
+    font-size: 2.5rem;
+   }
+   .email-btn{
+    width: 60%;
+   }
+   .left-side{
+    padding-left: 4rem;
+   }
+   #section-2, #section-3, #section-4, #section-5{
+    padding: 5rem;
+    height: 50vh;
+   }
+   #section-6{
+    height: 100vh;
+    padding: 5rem;
+    overflow: hidden;
+   }
+   #footer{
+    height: 60vh;
+   }
+}
+@media only screen and (max-width:700px){
+    .tv-img ,.child-img , .mobile-img, .moniter-img {
+        height: 25rem;
+    } 
+}
+@media only screen and (max-width:650px){
+    #section-2, #section-3, #section-4, #section-5{
+        flex-direction: column;
+        height: 80vh;
+    }
+    .brandName{
+    font-size: 4rem;
+    margin-top: 1.5rem;
+    }
+    .left-side{
+        width: 100%;
+        padding: 0rem;
+    }
+    .right-side{
+        width: 100%;
+        
+    }
+    .tv-img ,.child-img , .mobile-img, .moniter-img {
+        height: 40rem;
+    } 
+    
+    #footer{
+        padding: 5rem ;
+    }
+    .child-div{
+        padding: 1rem;
+    }
+}
+@media only screen and (max-width:500px){
+    .tv-img ,.child-img , .mobile-img, .moniter-img {
+        height: 30rem;
+    } 
+    h2{ 
+        font-size: 2.5rem;
+        color: white;
+        font-family: serif;
+    }
+    .brandName{
+        font-size: 3.5rem;
+        padding-left: .2rem;
+        margin-top: 2rem;
+        }
+    nav{
+        padding: 0rem;
+       }
+       .brandName img{
+        box-shadow: 2px 2px 2px white;
+       }
+       .nav-right ul li a{
+        font-size: 2.5rem;
+       }
+       #section-2, #section-3, #section-4, #section-5{
+        padding: 5rem;
+        height: 70vh;
+       }
+       .email-btn{
+        font-size: 1.5rem;
+        padding: 1rem 10rem;
+        width: 60%;
+    }
+    .btn{
+        font-size: 1.5rem;
+        padding: 1rem 1rem;
+        background-color: red;
+        color: white;
+        box-shadow: 2px 2px 2px black;
+    }
+    .heading1{
+        font-size: 5rem;
+    }
+    #section-6{
+        height: 120vh;
+    }
+
+}
+@media only screen and (max-width:400px){
+    #section-6  li{
+        color: white;
+        font-size: 2.5rem;
+        padding: 2rem 1rem;
+        margin: .5rem;
+        background-color: grey;
+    }
+    .brandName{
+        margin-top: 1rem;
+    }
+    .tv-img ,.child-img , .mobile-img, .moniter-img {
+        height: 25rem;
+    } 
+    #section-2, #section-3, #section-4, #section-5{
+        padding: 3rem;
+        height: 70vh;
+    }
+    #section-6{
+        padding: 3rem 0rem;
+        height: 110vh;
+    }
+    .brandName img{
+        height: 8rem;
+    }
+    .nav-right ul{
+        padding-top: 2.5rem;
+    }
+    .nav-right ul li a{
+        margin: 1rem;
+    }
+    .nav-right ul li a{
+        text-decoration: none;
+        font-size: 1.5rem;
+        margin: 0rem 1rem;
+        border-radius: .2rem;
+    }
+    
+    .child-div{
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .heading1{
+        font-size: 4rem;
+    }
+    .heading2{
+        font-size: 2rem;
+    }
+    .home-div{
+        padding: 2rem;
+    }
+    #footer{
+     height: 80vh;
+    }
+    .line-br{
+        display: block;
+    }
+    .email-btn{
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
+    }
+    .input{
+        padding: 2rem;
+    }
+    #section-6 li{
+        font-size: 2rem;
+    }
+    #section-6 p{
+        font-size: 2rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+}
+
+   
+   /* responsive coding end*/

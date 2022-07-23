@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    overflow-x: hidden;
+}
+html{
+    font-size: 62.5%;
+}
+/* genral setting ends */
+
+
+/* navigation start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 8rem;
+    background: rgba(0, 0, 0, .6);
+}
+
+.brandName{
+    font-size: 4rem;
+    margin-top: 1rem;
+    color: red;
+    font-family: cursive;
+    text-shadow: 1px 1px 2px white;
+}
+.nav-right ul{
+    display: flex;
+    list-style: none;
+    padding-top: 3rem;
+}
+.nav-right ul li a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin: 0rem 1.5rem;
+    border-radius: .2rem;
+}
+.sign-btn{
+    background-color: red;
+    color: white;
+    padding: .6rem 1.7rem;
+}
+.eng-btn{
+    border: 1px solid white;
+    padding: .6rem .4rem;
+    color: white;
+}
+/* navigation end */
+
+
+/* home start */
+#home{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../image/homeBg.jpg);
+}
+.home-div{
+    background: rgba(0, 0, 0, .6);
+    text-align: center; 
+    height: 100vh;
+}
+.line-br{
+    display: none;
+}
+.heading1{
+    font-size: 7rem;
+    color: white;
+    text-shadow: 2px 2px 7px black;
+    padding-top: 25vh;
+}
+.heading2{
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.input{
+    padding-top: 2rem;
+
+}
+.input p{
+    color: white;
+    font-size: 2.5rem;
+    text-shadow: 2px 1px 1px black;
+}
+.email-btn{
+    font-size: 2rem;
+    padding: 2rem 10rem;
+    width: 30%;
+    text-align: left;
+    box-shadow: 2px 2px 2px black;
+}
+.btn{
+    font-size: 2rem;
+    padding: 2rem 1rem;
+    background-color: red;
+    color: white;
+    box-shadow: 2px 2px 2px black;
+}
+/* home end */
+
+/* section 2 start */
+#section-2{
+    display: flex;
+    background-color: black;
+    height: 75vh;
+    padding:  10rem;
+    justify-content: space-between;
+}
+.tv-img {
+    height: 40rem;
+}
+.left-side{
+    width: 50%;
+    padding-top: 6rem;
+    padding-left: 12rem;
+}
+.right-side{
+    width: 50%;
+}
+h1{
+    font-size: 4rem;
+    color: white;
+    font-family: monospace;
+}
+h2{ 
+    font-size: 3rem;
+    color: white;
+    font-family: cursive;
+}
+/* section 2 end */
+
+/* section 3 start */
+#section-3{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: black;
+    height: 75vh;
+    padding:  10rem;
+    justify-content: space-between;
+}
+.mobile-img{
+    height: 40rem;
+}
+/* section 3 end */
+
+
+/* section 4 start */
+#section-4{
+    display: flex;
+    background-color: black;
+    height: 75vh;
+    padding:  10rem;
+    justify-content: space-between;
+}
+.moniter-img{
+    height: 40rem;
+}
+/* section 4 end */
+
+/* section 5 start */
+#section-5{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: black;
+    height: 75vh;
+    padding:  10rem;
+    justify-content: space-between;
+}
+.child-img{
+    height: 40rem;
+}
+/* section 5 end */
+
+/* section 6 start */
+#section-6{
+    text-align: center;
+    background-color: black;
+    height: 140vh;
+    padding:  10rem;
+    justify-content: space-between;
+}
+.display-none{
+    background-color: grey;
+    font-size: 2rem;
+    margin: 1rem;
+}
+ul{
+    list-style: none;
+}
+#section-6  li{
+    color: white;
+    font-size: 3rem;
+    padding: 2rem 2rem;
+    margin: 1rem;
+    background-color: grey;
+}
+#section-6 p{
+    color: white;
+    padding: .5rem;
+    font-size: 3rem;
+    font-family: cursive;
+}
+/* section 6 end */
+
+/* footer start */
+#footer{
+    background-color: black;
+    color: white;
+    height: 70vh;
+    padding: 10rem 30rem;
+}
+h6{
+    padding-bottom: 5rem;
+    font-size: 2rem;
+    color: gray;
+}
+.parent-div{
+    display: flex;
+    justify-content: space-between;
+}
+.child-div{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    padding: 0rem 5rem;
+}
+#footer ul{
+    list-style: none;
+}
+#footer ul li {
+    padding: 1rem;
+}
+#footer ul li a{
+    color: gray;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.bottom-box{
+    padding-top: 5rem;
+}
+.bottom-box li{
+    list-style: none;
+}
+.bottom-box li a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin: 0rem 1.5rem;
+    color: gray;
+    border-radius: .2rem;
+    border: 1px solid gray;
+    padding: .3rem .5rem;
+}
+.bottom-box p{
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    margin: 0rem 1.5rem;
+    color: gray;
+}
+span{
+    color: red;
+    font-size: 2rem;
+}
+/* footer end */
+
