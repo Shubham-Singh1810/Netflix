@@ -48,9 +48,7 @@
     height: 50vh;
    }
    #section-6{
-    height: 100vh;
     padding: 5rem;
-    overflow: hidden;
    }
    #footer{
     height: 60vh;
@@ -131,9 +129,7 @@
     .heading1{
         font-size: 5rem;
     }
-    #section-6{
-        height: 120vh;
-    }
+    
 
 }
 @media only screen and (max-width:400px){
@@ -156,7 +152,7 @@
     }
     #section-6{
         padding: 3rem 0rem;
-        height: 110vh;
+       
     }
     .brandName img{
         height: 8rem;
